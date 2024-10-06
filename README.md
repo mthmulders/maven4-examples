@@ -1,0 +1,1 @@
+This repository contains the demo's that [Robert Scholte](https://github.com/rfscholte) and [Maarten Mulders](https://github.com/mthmulders) used in their Devoxx 2024 _Deep Dive_ "[Wait no more, here comes Maven 4!](https://devoxx.be/talk/wait-no-more-here-comes-maven-4-/)".
