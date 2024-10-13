@@ -3,13 +3,13 @@ package org.apache.maven.samples.reactor.modb;
 import org.apache.maven.samples.reactor.moda.Calc;
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CalcImplTest {
     private final Calc calc = new CalcImpl();
 
     @Test
     void test_add() {
-        assertThat(calc.add(1, 7)).isEqualTo(8);
+        assertEquals(8, calc.add(1, 7));
     }    
 }
